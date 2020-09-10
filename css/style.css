@@ -70,7 +70,6 @@ header nav #myModal .modal-body .item-row {
 }
 
 header nav #myModal .modal-body .item-row h5 {
-  line-height: 4.5;
   font-family: "Oswald", sans-serif;
   color: #00AF00;
   display: inline-block;
@@ -589,6 +588,13 @@ footer .footer-bottom p span a {
 }
 
 @media (max-width: 575px) {
+  header nav #myModal .modal-body .item-row h5 {
+    font-family: "Oswald", sans-serif;
+    color: #00AF00;
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 15px;
+  }
   #workshop img {
     height: 300px;
   }

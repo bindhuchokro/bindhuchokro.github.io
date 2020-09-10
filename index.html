@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bindhu Chokro</title>
+    <link rel="icon" href="image/Logo/logo2.png" sizes="16x16">
+    <link rel="stylesheet" href="css/navbar-fixed.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header id="header">
-        <nav class="navbar navbar-expand-md navbar-light">
+        <nav class="navbar navbar-fixed navbar-expand-md navbar-light bg-light">
             <div class="logo-area">
                 <a href="" class="navbar-brand"> <img src="image/Logo/logo.png" alt="Image" class="logo"> </a>
             </div>
@@ -18,12 +20,12 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div id="navbarNav" class="collapse navbar-collapse text-center mr-lg-5 py-3 menus">
-                <ul class="navbar-nav ml-auto mr-lg-4">
-                    <li class="nav-item"> <a class="nav-link" href="#">Home</a> </li>
-                    <li class="nav-item"> <a class="nav-link" href="#">Gallery</a> </li>
-                    <li class="nav-item"> <a class="nav-link" href="#">About</a> </li>
-                    <li class="nav-item"> <a class="nav-link" href="#">Events</a> </li>
-                    <li class="nav-item"> <a class="nav-link" href="#">Contact</a> </li>
+                <ul class="navbar-nav ml-auto mr-lg-4 m-0">
+                    <li class="nav-item"> <a class="nav-link" href="#header">Home</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#OurCauses">Our Causes</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#workshop">Fild Activities</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#helpUs">Help Us</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#footer">Follow Us</a> </li>
                 </ul>
                 <button type="button" class="donate-btn btn text-light" data-toggle="modal" data-target="#myModal">
                     &dollar; Donate
@@ -47,11 +49,11 @@
                                         </div>
                                         <div class="col-12 item-row border-bottom border-success py-3">
                                             <img src="image/icons/roket.png" width="100" alt="Image">
-                                            <h5>018000000 (Personal)</h5>
+                                            <h5><del>010000000 (Personal)</del></h5>
                                         </div>
                                         <div class="col-12 item-row py-3">
                                             <img src="image/icons/MTB.png" width="100" alt="Image">
-                                            <h5 class="text-danger"> (Not available at this moment)</h5>
+                                            <h5 class="text-danger"> (Not available<br>at this moment)</h5>
                                         </div>
                                     </div>
                                 </div>
@@ -66,7 +68,7 @@
         </nav>
     </header>
     <!--============================ / End Header ============================-->
-    <section id="banner" class="">
+    <section id="banner">
         <div id="MySlider" class="carousel slide bg-dark" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#MySlider" data-slide-to="0" class="active"></li>
@@ -137,7 +139,7 @@
             </div>
         </div>
     </section>
-    <section id="workshop" class="pb-5">
+    <section id="workshop" class="pb-5 pt-4">
         <div class="container">
             <div class="heading text-center">
                 <h1> <span class="text-dark">Our Fild</span>  Activities</h1>
@@ -311,23 +313,23 @@
                                     <i class="fas fa-users fa-3x"></i>
                                     <h6>BECOME VOLUNTEER</h6>
                                     <P>Lorem ipsum dolor sit amet consectetur Voluptatibus, iure.</P>
-                                    <a href="" class="btn">Apply Now</a>
+                                    <a href="https://forms.gle/7thHeEZ8bYpaqX3j6" target="_blank" class="btn">Join Now</a>
                                 </div>
                             </div>
                             <div class="col-md-12 col-lg-4 mt-3">
                                 <div class="singel-box text-light text-center">
-                                    <i class="fas fa-users fa-3x"></i>
-                                    <h6>BECOME VOLUNTEER</h6>
+                                    <i class="fas fa-hand-holding-usd fa-3x"></i>
+                                    <h6>BECOME DONAR</h6>
                                     <P>Lorem ipsum dolor sit amet consectetur Voluptatibus, iure.</P>
-                                    <a href="" class="btn">Apply Now</a>
+                                    <a href="https://forms.gle/7thHeEZ8bYpaqX3j6" target="_blank" class="btn">Join Now</a>
                                 </div>
                             </div>
                             <div class="col-md-12 col-lg-4 mt-3">
                                 <div class="singel-box text-light text-center">
-                                    <i class="fas fa-users fa-3x"></i>
-                                    <h6>BECOME VOLUNTEER</h6>
+                                    <i class="fas fa-microphone-alt fa-3x"></i>
+                                    <h6>BECOME ADVISER</h6>
                                     <P>Lorem ipsum dolor sit amet consectetur Voluptatibus, iure.</P>
-                                    <a href="" class="btn">Apply Now</a>
+                                    <a href="https://forms.gle/7thHeEZ8bYpaqX3j6" target="_blank" class="btn">Join Now</a>
                                 </div>
                             </div>
                         </div>
@@ -398,7 +400,7 @@
                         <div class="box p-5 text-light">
                             <h3>Buy Our T-Shirt</h3>
                             <h6>Price Only BDT &#2547;300</h6>
-                            <a href="" class="btn px-4 py-1">Buy Now</a>
+                            <a href="https://forms.gle/7thHeEZ8bYpaqX3j6" target="_blank" class="btn px-4 py-1">Buy Now</a>
                         </div>
                     </div>
                 </div>
@@ -654,7 +656,7 @@
             </a>
         </div>
     </section>
-    <footer class="pt-5">
+    <footer id="footer" class="pt-5">
         <div class="container">
             <div class="row footer-top">
                 <div class="logo col-md-4 py-2 pb-3">
@@ -674,11 +676,11 @@
                     <div class="col-md-4">
                         <h5>Quick links</h5>
                         <ul class="navbar-nav">
-                            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#">Events</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#">Our Causes</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#">Buy T-shirt</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#">Contract</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#header">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#workshop">Events</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#Buy">Buy T-shirt</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#achieved">Our Achieved</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#team">Management Team</a></li>
                         </ul>
                     </div>
                     <div class="col-md-5 mb-3">
@@ -695,10 +697,10 @@
                     </div>
                     <div class="col-md-3">
                         <h5>Follow Us</h5>
-                         <span><a href=""><i class="fab fa-facebook"></i> Facebook Page</a></span>
-                        <br> <span><a href=""><i class="fab fa-facebook-messenger"></i> Messenger Chat</a></span>
-                        <br> <span><a href=""><i class="fas fa-users"></i> Facebook Group</a></span>
-                        <br> <span><a href=""><i class="fas fa-phone"></i>+8801874993825</a></span>
+                         <span><a href="https://facebook.com/BindhuChokro" target="_blank"><i class="fab fa-facebook"></i> Facebook Page</a></span>
+                        <br> <span><a href="https://facebook.com/messages/t/BindhuChokro" target="_blank"><i class="fab fa-facebook-messenger"></i> Messenger Chat</a></span>
+                        <br> <span><a href="https://facebook.com/groups/234444773626389" target="_blank"><i class="fas fa-users"></i> Facebook Group</a></span>
+                        <br> <span><a href="tel:+8801874993825"><i class="fas fa-phone-alt"></i>+8801874993825</a></span>
                     </div>
                 </div>
             </div>
@@ -712,5 +714,6 @@
     <script type="text/javascript" src="js/jquery-3.5.1.js"></script>
     <script type="text/javascript" src="js/popper.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/navbar-fixed.js"></script>
 </body>
 </html>
